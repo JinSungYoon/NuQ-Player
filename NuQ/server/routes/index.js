@@ -77,7 +77,7 @@ router.get('/routes/index.js/search',function(req,res){
   var word = artist+ " " + music;
   var limit = 1;
 
-  youtube.setKey('AIzaSyDy5jnWWhToMC4bY3UR_DQwKPcQm51QVSQ'); // API 키 입력
+  youtube.setKey(''); // API 키 입력
 
   //// 검색 옵션 시작
   youtube.addParam('order', 'relevance'); // 평점 순으로 정렬
